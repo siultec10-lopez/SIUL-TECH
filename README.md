@@ -50,11 +50,3 @@ Tambien puede ejecutarse con Live Server de VS Code o publicarse en GitHub Pages
 |-- js/
     `-- app.js
 ```
-
-## Contexto del proyecto
-
-SIULTECH ayuda a organizar el proceso de elegir componentes para una computadora gamer. La aplicacion permite agregar varias opciones de una misma categoria, calcula subtotales y total general, estima consumo y revisa compatibilidad de socket entre procesador y placa madre, ademas del tipo de RAM soportado por la placa madre. Tambien permite agregar un monitor gaming opcional al presupuesto.
-
-## Reflexion final sugerida
-
-Este proyecto me permitio aplicar JavaScript en una experiencia interactiva real. Practique manipulacion del DOM, eventos, consumo de datos externos con `fetch`, uso de `localStorage`, validaciones de compatibilidad y mensajes visuales con una libreria externa. Tambien aprendi la importancia de ordenar el codigo y documentar el proyecto para que pueda ser revisado con claridad.

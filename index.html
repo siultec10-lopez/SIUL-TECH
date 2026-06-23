@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIULTECH</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="./js/app.js"></script>
+  </head>
+  <body>
+    <!-- Encabezado principal de la aplicacion. -->
+    <header class="header">
+      <h1>SIULTECH - Armá tu PC</h1>
+      <p>
+        Armá tu setup gamer con componentes compatibles y marcas reconocidas.
+      </p>
+    </header>
+
+    <main class="container">
+      <!-- Filtro para ver componentes por categoria. -->
+      <section class="filtros">
+        <h2>Filtrar componentes</h2>
+
+        <select id="filtroCategoria">
+          <option value="todos">Todos</option>
+          <option value="procesador">Procesador</option>
+          <option value="motherboard">Placa madre</option>
+          <option value="ram">RAM</option>
+          <option value="gpu">Tarjeta gráfica</option>
+          <option value="almacenamiento">Almacenamiento</option>
+          <option value="fuente">Fuente</option>
+          <option value="gabinete">Case</option>
+          <option value="refrigeracion">Disipador líquido</option>
+          <option value="monitor">Monitor</option>
+        </select>
+      </section>
+
+      <!-- Catalogo donde JavaScript carga las tarjetas desde el JSON. -->
+      <section class="catalogo">
+        <h2>Componentes disponibles</h2>
+        <div id="contenedorComponentes" class="grid">
+          <p class="estado-carga">Cargando componentes...</p>
+        </div>
+      </section>
+
+      <!-- Resumen del armado con cantidades, total y acciones. -->
+      <section class="resumen">
+        <h2>Mi PC armada</h2>
+        <div id="resumenPc"></div>
+
+        <div class="totales-resumen">
+          <h3>
+            Total: <span>L <span id="total">0</span></span>
+          </h3>
+          <h3>
+            Consumo: <span><span id="consumoTotal">0</span> W</span>
+          </h3>
+        </div>
+
+        <div class="acciones-resumen">
+          <button id="btnGuardar">Guardar armado</button>
+          <button id="btnLimpiar">Limpiar armado</button>
+          <button id="btnFinalizar">Finalizar configuración</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

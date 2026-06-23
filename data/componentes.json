@@ -1,0 +1,1128 @@
+[
+  {
+    "id": 1,
+    "nombre": "AMD Ryzen 5 5600X",
+    "marca": "AMD",
+    "categoria": "procesador",
+    "precio": 4200,
+    "socket": "AM4",
+    "ramTipo": "DDR4",
+    "consumo": 65,
+    "imagen": "./assets/img/componentes/ryzen-5-5600x.avif",
+    "destacado": "Gaming 1080p",
+    "specs": [
+      "6 nucleos",
+      "12 hilos",
+      "Socket AM4"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "AMD Ryzen 7 5800X3D",
+    "marca": "AMD",
+    "categoria": "procesador",
+    "precio": 7600,
+    "socket": "AM4",
+    "ramTipo": "DDR4",
+    "consumo": 105,
+    "imagen": "./assets/img/componentes/ryzen-7-5800x3d.avif",
+    "destacado": "Alto FPS",
+    "specs": [
+      "8 nucleos",
+      "3D V-Cache",
+      "Socket AM4"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "AMD Ryzen 5 7600",
+    "marca": "AMD",
+    "categoria": "procesador",
+    "precio": 6500,
+    "socket": "AM5",
+    "ramTipo": "DDR5",
+    "consumo": 65,
+    "imagen": "./assets/img/componentes/ryzen-5-7600.avif",
+    "destacado": "Nueva generacion",
+    "specs": [
+      "6 nucleos",
+      "DDR5",
+      "Socket AM5"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "INTEL Core i5-12400F",
+    "marca": "INTEL",
+    "categoria": "procesador",
+    "precio": 4600,
+    "socket": "LGA1700",
+    "ramTipo": "DDR4",
+    "consumo": 65,
+    "imagen": "./assets/img/componentes/core-i5-12400f.jpg",
+    "destacado": "Precio/rendimiento",
+    "specs": [
+      "6 nucleos",
+      "Sin graficos",
+      "LGA1700"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "INTEL Core i5-13600KF",
+    "marca": "INTEL",
+    "categoria": "procesador",
+    "precio": 8900,
+    "socket": "LGA1700",
+    "ramTipo": "DDR5",
+    "consumo": 125,
+    "imagen": "./assets/img/componentes/core-i5-13600kf.jpg",
+    "destacado": "Streaming",
+    "specs": [
+      "14 nucleos",
+      "20 hilos",
+      "LGA1700"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "INTEL Core i7-14700KF",
+    "marca": "INTEL",
+    "categoria": "procesador",
+    "precio": 12800,
+    "socket": "LGA1700",
+    "ramTipo": "DDR5",
+    "consumo": 125,
+    "imagen": "./assets/img/componentes/core-i7-14700kf.jpg",
+    "destacado": "Enthusiast",
+    "specs": [
+      "20 nucleos",
+      "28 hilos",
+      "DDR5"
+    ]
+  },
+  {
+    "id": 40,
+    "nombre": "AMD Ryzen 9 7900X",
+    "marca": "AMD",
+    "categoria": "procesador",
+    "precio": 11800,
+    "socket": "AM5",
+    "ramTipo": "DDR5",
+    "consumo": 170,
+    "imagen": "./assets/img/componentes/ryzen-9-7900x.avif",
+    "destacado": "Ryzen 9",
+    "specs": [
+      "12 nucleos",
+      "24 hilos",
+      "Socket AM5"
+    ]
+  },
+  {
+    "id": 41,
+    "nombre": "AMD Ryzen 9 7950X3D",
+    "marca": "AMD",
+    "categoria": "procesador",
+    "precio": 16900,
+    "socket": "AM5",
+    "ramTipo": "DDR5",
+    "consumo": 120,
+    "imagen": "./assets/img/componentes/ryzen-9-7900x3d.avif",
+    "destacado": "Ryzen 9 X3D",
+    "specs": [
+      "16 nucleos",
+      "3D V-Cache",
+      "Gama alta"
+    ]
+  },
+  {
+    "id": 42,
+    "nombre": "AMD Ryzen 9 9950X",
+    "marca": "AMD",
+    "categoria": "procesador",
+    "precio": 17900,
+    "socket": "AM5",
+    "ramTipo": "DDR5",
+    "consumo": 170,
+    "imagen": "./assets/img/componentes/ryzen-9-9950x.avif",
+    "destacado": "Ryzen 9000",
+    "specs": [
+      "16 nucleos",
+      "32 hilos",
+      "AM5 DDR5"
+    ]
+  },
+  {
+    "id": 43,
+    "nombre": "INTEL Core Ultra 7 265K",
+    "marca": "INTEL",
+    "categoria": "procesador",
+    "precio": 13900,
+    "socket": "LGA1851",
+    "ramTipo": "DDR5",
+    "consumo": 125,
+    "imagen": "./assets/img/componentes/core-ultra-7-265k.jpg",
+    "destacado": "Core Ultra",
+    "specs": [
+      "20 nucleos",
+      "LGA1851",
+      "DDR5"
+    ]
+  },
+  {
+    "id": 44,
+    "nombre": "INTEL Core Ultra 9 285K",
+    "marca": "INTEL",
+    "categoria": "procesador",
+    "precio": 18900,
+    "socket": "LGA1851",
+    "ramTipo": "DDR5",
+    "consumo": 125,
+    "imagen": "./assets/img/componentes/core-ultra-9-285k.jpg",
+    "destacado": "Ultra 9",
+    "specs": [
+      "24 nucleos",
+      "LGA1851",
+      "Gama alta"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "ASUS ROG Strix B550-F Gaming",
+    "marca": "ASUS",
+    "categoria": "motherboard",
+    "precio": 4800,
+    "socket": "AM4",
+    "ramTipo": "DDR4",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/asus-rog-strix-b550-f-gaming.jpg",
+    "destacado": "ROG Gaming",
+    "specs": [
+      "AM4",
+      "DDR4",
+      "ATX"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "ASUS TUF Gaming Z790-Plus",
+    "marca": "ASUS",
+    "categoria": "motherboard",
+    "precio": 7900,
+    "socket": "LGA1700",
+    "ramTipo": "DDR5",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/asus-tuf-gaming-z790-plus.jpg",
+    "destacado": "TUF Gaming",
+    "specs": [
+      "LGA1700",
+      "DDR5",
+      "PCIe 5.0"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "MSI MAG B660 Tomahawk",
+    "marca": "MSI",
+    "categoria": "motherboard",
+    "precio": 5200,
+    "socket": "LGA1700",
+    "ramTipo": "DDR4",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/msi-mag-b660-tomahawk.jpg",
+    "destacado": "MAG Series",
+    "specs": [
+      "LGA1700",
+      "DDR4",
+      "ATX"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "MSI PRO B650-P WiFi",
+    "marca": "MSI",
+    "categoria": "motherboard",
+    "precio": 6400,
+    "socket": "AM5",
+    "ramTipo": "DDR5",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/msi-pro-b650-p-wifi.jpg",
+    "destacado": "AM5 WiFi",
+    "specs": [
+      "AM5",
+      "DDR5",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "GIGABYTE B550 AORUS Elite",
+    "marca": "GIGABYTE",
+    "categoria": "motherboard",
+    "precio": 4600,
+    "socket": "AM4",
+    "ramTipo": "DDR4",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/gigabyte-b550-aorus-elite.jpg",
+    "destacado": "AORUS",
+    "specs": [
+      "AM4",
+      "DDR4",
+      "RGB Fusion"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "GIGABYTE B650 AORUS Elite AX",
+    "marca": "GIGABYTE",
+    "categoria": "motherboard",
+    "precio": 6900,
+    "socket": "AM5",
+    "ramTipo": "DDR5",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/gigabyte-b650-aorus-elite-ax.jpg",
+    "destacado": "WiFi Gaming",
+    "specs": [
+      "AM5",
+      "DDR5",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 45,
+    "nombre": "ASUS ROG Strix Z890-E Gaming WiFi",
+    "marca": "ASUS",
+    "categoria": "motherboard",
+    "precio": 11900,
+    "socket": "LGA1851",
+    "ramTipo": "DDR5",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/asus-rog-strix-z890-e-gaming-wifi.jpg",
+    "destacado": "Core Ultra",
+    "specs": [
+      "LGA1851",
+      "DDR5",
+      "WiFi 7"
+    ]
+  },
+  {
+    "id": 46,
+    "nombre": "MSI MPG Z890 Carbon WiFi",
+    "marca": "MSI",
+    "categoria": "motherboard",
+    "precio": 11200,
+    "socket": "LGA1851",
+    "ramTipo": "DDR5",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/msi-mpg-z890-carbon-wifi.jpg",
+    "destacado": "Z890",
+    "specs": [
+      "LGA1851",
+      "DDR5",
+      "PCIe 5.0"
+    ]
+  },
+  {
+    "id": 47,
+    "nombre": "GIGABYTE Z890 AORUS Elite WiFi",
+    "marca": "GIGABYTE",
+    "categoria": "motherboard",
+    "precio": 9800,
+    "socket": "LGA1851",
+    "ramTipo": "DDR5",
+    "formato": "ATX",
+    "imagen": "./assets/img/componentes/gigabyte-z890-aorus-elite-wifi.jpg",
+    "destacado": "AORUS Z890",
+    "specs": [
+      "LGA1851",
+      "DDR5",
+      "WiFi"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "CORSAIR Vengeance RGB Pro 16GB",
+    "marca": "CORSAIR",
+    "categoria": "ram",
+    "precio": 1800,
+    "ramTipo": "DDR4",
+    "imagen": "./assets/img/componentes/corsair-vengeance-rgb-pro-16gb.jpg",
+    "destacado": "RGB DDR4",
+    "specs": [
+      "16GB",
+      "3200MHz",
+      "DDR4"
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "CORSAIR Vengeance RGB 32GB",
+    "marca": "CORSAIR",
+    "categoria": "ram",
+    "precio": 3400,
+    "ramTipo": "DDR5",
+    "imagen": "./assets/img/componentes/corsair-vengeance-rgb-32gb.jpg",
+    "destacado": "RGB DDR5",
+    "specs": [
+      "32GB",
+      "5600MHz",
+      "DDR5"
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "PATRIOT Viper Steel RGB 16GB",
+    "marca": "PATRIOT",
+    "categoria": "ram",
+    "precio": 1700,
+    "ramTipo": "DDR4",
+    "imagen": "./assets/img/componentes/patriot-viper-steel-rgb-16gb.jpg",
+    "destacado": "Viper RGB",
+    "specs": [
+      "16GB",
+      "3600MHz",
+      "DDR4"
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "PATRIOT Viper Venom RGB 32GB",
+    "marca": "PATRIOT",
+    "categoria": "ram",
+    "precio": 3100,
+    "ramTipo": "DDR5",
+    "imagen": "./assets/img/componentes/patriot-viper-venom-rgb-32gb.jpg",
+    "destacado": "DDR5 Gaming",
+    "specs": [
+      "32GB",
+      "6000MHz",
+      "DDR5"
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "ASUS Dual GeForce RTX 4060",
+    "marca": "ASUS",
+    "categoria": "gpu",
+    "precio": 9800,
+    "consumo": 115,
+    "largo": 227,
+    "imagen": "./assets/img/componentes/asus-dual-geforce-rtx-4060.jpg",
+    "destacado": "Ray Tracing",
+    "specs": [
+      "8GB",
+      "DLSS",
+      "1080p Ultra"
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "ASUS TUF Radeon RX 7800 XT",
+    "marca": "ASUS",
+    "categoria": "gpu",
+    "precio": 16600,
+    "consumo": 263,
+    "largo": 320,
+    "imagen": "./assets/img/componentes/asus-tuf-radeon-rx-7800xt.jpg",
+    "destacado": "16GB VRAM",
+    "specs": [
+      "16GB",
+      "1440p",
+      "TUF Cooling"
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "MSI Gaming X RTX 4070 Super",
+    "marca": "MSI",
+    "categoria": "gpu",
+    "precio": 18900,
+    "consumo": 220,
+    "largo": 307,
+    "imagen": "./assets/img/componentes/msi-gaming-x-rtx-4070-super.jpg",
+    "destacado": "1440p Ultra",
+    "specs": [
+      "12GB",
+      "DLSS 3",
+      "Triple fan"
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "GIGABYTE Gaming OC Radeon RX 7600",
+    "marca": "GIGABYTE",
+    "categoria": "gpu",
+    "precio": 8900,
+    "consumo": 165,
+    "largo": 282,
+    "imagen": "./assets/img/componentes/gigabyte-gaming-oc-radeon-rx-7600.jpg",
+    "destacado": "1080p Gaming",
+    "specs": [
+      "8GB",
+      "RDNA 3",
+      "Windforce"
+    ]
+  },
+  {
+    "id": 21,
+    "nombre": "AMD Radeon RX 7900 GRE",
+    "marca": "AMD",
+    "categoria": "gpu",
+    "precio": 17800,
+    "consumo": 260,
+    "largo": 320,
+    "imagen": "./assets/img/componentes/amd-radeon-rx-7900-gre.jpg",
+    "destacado": "AMD Gaming",
+    "specs": [
+      "16GB",
+      "1440p alto",
+      "RDNA 3"
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "SAMSUNG 980 Pro 1TB",
+    "marca": "SAMSUNG",
+    "categoria": "almacenamiento",
+    "precio": 3100,
+    "imagen": "./assets/img/componentes/samsung-980-pro-1tb.jpg",
+    "destacado": "Alto rendimiento",
+    "specs": [
+      "1TB",
+      "7000 MB/s",
+      "PCIe 4.0"
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "SAMSUNG 990 Pro 2TB",
+    "marca": "SAMSUNG",
+    "categoria": "almacenamiento",
+    "precio": 5900,
+    "imagen": "./assets/img/componentes/samsung-990-pro-2tb.jpg",
+    "destacado": "Pro Gaming",
+    "specs": [
+      "2TB",
+      "7450 MB/s",
+      "NVMe"
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "PATRIOT Viper VP4300 Lite 1TB",
+    "marca": "PATRIOT",
+    "categoria": "almacenamiento",
+    "precio": 2800,
+    "imagen": "./assets/img/componentes/patriot-viper-vp4300-lite-1tb.jpg",
+    "destacado": "Viper SSD",
+    "specs": [
+      "1TB",
+      "PCIe 4.0",
+      "M.2"
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "CORSAIR MP600 Pro LPX 2TB",
+    "marca": "CORSAIR",
+    "categoria": "almacenamiento",
+    "precio": 5400,
+    "imagen": "./assets/img/componentes/corsair-mp600-pro-lpx-2tb.jpg",
+    "destacado": "Gen4 Rapido",
+    "specs": [
+      "2TB",
+      "7100 MB/s",
+      "NVMe"
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "CORSAIR RM750e 80 Plus Gold",
+    "marca": "CORSAIR",
+    "categoria": "fuente",
+    "precio": 3900,
+    "watts": 750,
+    "imagen": "./assets/img/componentes/corsair-rm750e-80-plus-gold.jpg",
+    "destacado": "Modular",
+    "specs": [
+      "750W",
+      "80+ Gold",
+      "Modular"
+    ]
+  },
+  {
+    "id": 27,
+    "nombre": "CORSAIR RM850x 80 Plus Gold",
+    "marca": "CORSAIR",
+    "categoria": "fuente",
+    "precio": 5200,
+    "watts": 850,
+    "imagen": "./assets/img/componentes/corsair-rm850x-80-plus-gold.jpg",
+    "destacado": "Alta gama",
+    "specs": [
+      "850W",
+      "80+ Gold",
+      "Full modular"
+    ]
+  },
+  {
+    "id": 28,
+    "nombre": "THERMALTAKE Toughpower GF A3 750W",
+    "marca": "THERMALTAKE",
+    "categoria": "fuente",
+    "precio": 3700,
+    "watts": 750,
+    "imagen": "./assets/img/componentes/thermaltake-toughpower-gf-a3-750w.jpg",
+    "destacado": "ATX 3.0",
+    "specs": [
+      "750W",
+      "80+ Gold",
+      "PCIe 5.0"
+    ]
+  },
+  {
+    "id": 29,
+    "nombre": "MSI MAG A850GL PCIE5",
+    "marca": "MSI",
+    "categoria": "fuente",
+    "precio": 4500,
+    "watts": 850,
+    "imagen": "./assets/img/componentes/msi-mag-a850gl-pcie5.jpg",
+    "destacado": "PCIe 5.0",
+    "specs": [
+      "850W",
+      "80+ Gold",
+      "Modular"
+    ]
+  },
+  {
+    "id": 30,
+    "nombre": "GIGABYTE UD850GM PG5",
+    "marca": "GIGABYTE",
+    "categoria": "fuente",
+    "precio": 4300,
+    "watts": 850,
+    "imagen": "./assets/img/componentes/gigabyte-ud850gm-pg5.jpg",
+    "destacado": "Gaming PSU",
+    "specs": [
+      "850W",
+      "80+ Gold",
+      "PCIe 5.0"
+    ]
+  },
+  {
+    "id": 31,
+    "nombre": "CORSAIR 4000D RGB Airflow",
+    "marca": "CORSAIR",
+    "categoria": "gabinete",
+    "precio": 3900,
+    "formatosSoportados": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "largoMaxGpu": 360,
+    "alturaMaxCooler": 170,
+    "imagen": "./assets/img/componentes/corsair-4000d-rgb-airflow.jpg",
+    "destacado": "Airflow RGB",
+    "specs": [
+      "ATX",
+      "RGB",
+      "GPU 360mm"
+    ]
+  },
+  {
+    "id": 32,
+    "nombre": "ASUS TUF Gaming GT301",
+    "marca": "ASUS",
+    "categoria": "gabinete",
+    "precio": 3600,
+    "formatosSoportados": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "largoMaxGpu": 320,
+    "alturaMaxCooler": 160,
+    "imagen": "./assets/img/componentes/asus-tuf-gaming-gt301.jpg",
+    "destacado": "TUF Case",
+    "specs": [
+      "ATX",
+      "RGB",
+      "Vidrio templado"
+    ]
+  },
+  {
+    "id": 33,
+    "nombre": "MSI MAG Forge 112R",
+    "marca": "MSI",
+    "categoria": "gabinete",
+    "precio": 3000,
+    "formatosSoportados": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "largoMaxGpu": 330,
+    "alturaMaxCooler": 160,
+    "imagen": "./assets/img/componentes/msi-mag-forge-112r.jpg",
+    "destacado": "ARGB Mesh",
+    "specs": [
+      "ATX",
+      "ARGB",
+      "Mesh"
+    ]
+  },
+  {
+    "id": 34,
+    "nombre": "GIGABYTE C301 Glass",
+    "marca": "GIGABYTE",
+    "categoria": "gabinete",
+    "precio": 3500,
+    "formatosSoportados": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "largoMaxGpu": 400,
+    "alturaMaxCooler": 170,
+    "imagen": "./assets/img/componentes/gigabyte-c301-glass.jpg",
+    "destacado": "RGB Fusion",
+    "specs": [
+      "ATX",
+      "Vidrio",
+      "GPU 400mm"
+    ]
+  },
+  {
+    "id": 35,
+    "nombre": "THERMALTAKE View 200 TG ARGB",
+    "marca": "THERMALTAKE",
+    "categoria": "gabinete",
+    "precio": 3300,
+    "formatosSoportados": [
+      "ATX",
+      "Micro-ATX",
+      "Mini-ITX"
+    ],
+    "largoMaxGpu": 330,
+    "alturaMaxCooler": 166,
+    "imagen": "./assets/img/componentes/thermaltake-view-200-tg-argb.jpg",
+    "destacado": "ARGB",
+    "specs": [
+      "ATX",
+      "ARGB",
+      "Tempered glass"
+    ]
+  },
+  {
+    "id": 36,
+    "nombre": "CORSAIR iCUE H100i Elite RGB",
+    "marca": "CORSAIR",
+    "categoria": "refrigeracion",
+    "precio": 5200,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700"
+    ],
+    "altura": 55,
+    "capacidadTdp": 280,
+    "imagen": "./assets/img/componentes/corsair-icue-h100i-elite-rgb.jpg",
+    "destacado": "AIO RGB",
+    "specs": [
+      "Liquida 240mm",
+      "iCUE",
+      "280W TDP"
+    ]
+  },
+  {
+    "id": 37,
+    "nombre": "MSI MAG CoreLiquid 240R V2",
+    "marca": "MSI",
+    "categoria": "refrigeracion",
+    "precio": 3900,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700"
+    ],
+    "altura": 52,
+    "capacidadTdp": 260,
+    "imagen": "./assets/img/componentes/msi-mag-coreliquid-240r-v2.jpg",
+    "destacado": "Liquid RGB",
+    "specs": [
+      "Liquida 240mm",
+      "ARGB",
+      "260W TDP"
+    ]
+  },
+  {
+    "id": 38,
+    "nombre": "ASUS ROG Strix LC II 240 ARGB",
+    "marca": "ASUS",
+    "categoria": "refrigeracion",
+    "precio": 5600,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700"
+    ],
+    "altura": 54,
+    "capacidadTdp": 280,
+    "imagen": "./assets/img/componentes/asus-rog-strix-lc-ii-240-argb.jpg",
+    "destacado": "ROG AIO",
+    "specs": [
+      "Liquida 240mm",
+      "ARGB",
+      "ROG"
+    ]
+  },
+  {
+    "id": 39,
+    "nombre": "THERMALTAKE TH240 ARGB Sync",
+    "marca": "THERMALTAKE",
+    "categoria": "refrigeracion",
+    "precio": 3400,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700"
+    ],
+    "altura": 52,
+    "capacidadTdp": 260,
+    "imagen": "./assets/img/componentes/thermaltake-th240-argb-sync.jpg",
+    "destacado": "ARGB Sync",
+    "specs": [
+      "Liquida 240mm",
+      "ARGB",
+      "260W TDP"
+    ]
+  },
+  {
+    "id": 48,
+    "nombre": "CORSAIR iCUE H150i Elite RGB 360",
+    "marca": "CORSAIR",
+    "categoria": "refrigeracion",
+    "precio": 6900,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700",
+      "LGA1851"
+    ],
+    "altura": 55,
+    "capacidadTdp": 350,
+    "imagen": "./assets/img/componentes/corsair-icue-h150i-elite-rgb-360.jpg",
+    "destacado": "AIO 360mm",
+    "specs": [
+      "Liquida 360mm",
+      "iCUE RGB",
+      "350W TDP"
+    ]
+  },
+  {
+    "id": 49,
+    "nombre": "MSI MAG CoreLiquid E360",
+    "marca": "MSI",
+    "categoria": "refrigeracion",
+    "precio": 5700,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700",
+      "LGA1851"
+    ],
+    "altura": 52,
+    "capacidadTdp": 330,
+    "imagen": "./assets/img/componentes/msi-mag-coreliquid-e360.jpg",
+    "destacado": "360 ARGB",
+    "specs": [
+      "Liquida 360mm",
+      "ARGB",
+      "330W TDP"
+    ]
+  },
+  {
+    "id": 50,
+    "nombre": "ASUS ROG Ryujin III 360 ARGB",
+    "marca": "ASUS",
+    "categoria": "refrigeracion",
+    "precio": 9800,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700",
+      "LGA1851"
+    ],
+    "altura": 55,
+    "capacidadTdp": 360,
+    "imagen": "./assets/img/componentes/asus-rog-ryujin-iii-360-argb.jpg",
+    "destacado": "ROG 360",
+    "specs": [
+      "Liquida 360mm",
+      "Pantalla LCD",
+      "360W TDP"
+    ]
+  },
+  {
+    "id": 51,
+    "nombre": "GIGABYTE AORUS Waterforce X 360",
+    "marca": "GIGABYTE",
+    "categoria": "refrigeracion",
+    "precio": 8500,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700",
+      "LGA1851"
+    ],
+    "altura": 55,
+    "capacidadTdp": 350,
+    "imagen": "./assets/img/componentes/gigabyte-aorus-waterforce-x-360.jpg",
+    "destacado": "AORUS 360",
+    "specs": [
+      "Liquida 360mm",
+      "LCD",
+      "350W TDP"
+    ]
+  },
+  {
+    "id": 52,
+    "nombre": "THERMALTAKE TH360 V2 ARGB Sync",
+    "marca": "THERMALTAKE",
+    "categoria": "refrigeracion",
+    "precio": 5400,
+    "socketsSoportados": [
+      "AM4",
+      "AM5",
+      "LGA1700",
+      "LGA1851"
+    ],
+    "altura": 52,
+    "capacidadTdp": 330,
+    "imagen": "./assets/img/componentes/thermaltake-th360-v2-argb-sync.jpg",
+    "destacado": "TH360",
+    "specs": [
+      "Liquida 360mm",
+      "ARGB Sync",
+      "330W TDP"
+    ]
+  },
+  {
+    "id": 53,
+    "nombre": "ASUS TUF Gaming VG27AQ",
+    "marca": "ASUS",
+    "categoria": "monitor",
+    "precio": 7600,
+    "pulgadas": 27,
+    "resolucion": "2560x1440",
+    "hz": 165,
+    "panel": "IPS",
+    "imagen": "./assets/img/componentes/asus-tuf-gaming-vg27aq.jpg",
+    "destacado": "27 pulgadas",
+    "specs": [
+      "27 pulgadas",
+      "1440p",
+      "165Hz IPS"
+    ]
+  },
+  {
+    "id": 54,
+    "nombre": "MSI G274QPF-QD",
+    "marca": "MSI",
+    "categoria": "monitor",
+    "precio": 8200,
+    "pulgadas": 27,
+    "resolucion": "2560x1440",
+    "hz": 170,
+    "panel": "Rapid IPS",
+    "imagen": "./assets/img/componentes/msi-g274qpf-qd.jpg",
+    "destacado": "27 pulgadas",
+    "specs": [
+      "27 pulgadas",
+      "1440p",
+      "170Hz"
+    ]
+  },
+  {
+    "id": 55,
+    "nombre": "GIGABYTE M27Q",
+    "marca": "GIGABYTE",
+    "categoria": "monitor",
+    "precio": 7900,
+    "pulgadas": 27,
+    "resolucion": "2560x1440",
+    "hz": 170,
+    "panel": "IPS",
+    "imagen": "./assets/img/componentes/gigabyte-m27q.jpg",
+    "destacado": "27 pulgadas",
+    "specs": [
+      "27 pulgadas",
+      "QHD",
+      "170Hz"
+    ]
+  },
+  {
+    "id": 56,
+    "nombre": "SAMSUNG Odyssey G5 27",
+    "marca": "SAMSUNG",
+    "categoria": "monitor",
+    "precio": 6900,
+    "pulgadas": 27,
+    "resolucion": "2560x1440",
+    "hz": 165,
+    "panel": "VA Curvo",
+    "imagen": "./assets/img/componentes/samsung-odyssey-g5-27.jpg",
+    "destacado": "27 pulgadas",
+    "specs": [
+      "27 pulgadas",
+      "Curvo",
+      "165Hz"
+    ]
+  },
+  {
+    "id": 57,
+    "nombre": "THERMALTAKE TGM-I27FQ",
+    "marca": "THERMALTAKE",
+    "categoria": "monitor",
+    "precio": 7800,
+    "pulgadas": 27,
+    "resolucion": "2560x1440",
+    "hz": 165,
+    "panel": "IPS",
+    "imagen": "./assets/img/componentes/thermaltake-tgm-i27fq.jpg",
+    "destacado": "27 pulgadas",
+    "specs": [
+      "27 pulgadas",
+      "QHD",
+      "165Hz"
+    ]
+  },
+  {
+    "id": 58,
+    "nombre": "CORSAIR XENEON 27QHD240",
+    "marca": "CORSAIR",
+    "categoria": "monitor",
+    "precio": 21900,
+    "pulgadas": 27,
+    "resolucion": "2560x1440",
+    "hz": 240,
+    "panel": "OLED",
+    "imagen": "./assets/img/componentes/corsair-xeneon-27qhd240.jpg",
+    "destacado": "OLED 27",
+    "specs": [
+      "27 pulgadas",
+      "OLED",
+      "240Hz"
+    ]
+  },
+  {
+    "id": 59,
+    "nombre": "ASUS ROG Swift PG32UQ",
+    "marca": "ASUS",
+    "categoria": "monitor",
+    "precio": 18500,
+    "pulgadas": 32,
+    "resolucion": "3840x2160",
+    "hz": 144,
+    "panel": "IPS",
+    "imagen": "./assets/img/componentes/asus-rog-swift-pg32uq.jpg",
+    "destacado": "32 pulgadas",
+    "specs": [
+      "32 pulgadas",
+      "4K",
+      "144Hz"
+    ]
+  },
+  {
+    "id": 60,
+    "nombre": "MSI MAG 321QR-QD",
+    "marca": "MSI",
+    "categoria": "monitor",
+    "precio": 12500,
+    "pulgadas": 32,
+    "resolucion": "2560x1440",
+    "hz": 170,
+    "panel": "Rapid IPS",
+    "imagen": "./assets/img/componentes/msi-mag-321qr-qd.jpg",
+    "destacado": "32 pulgadas",
+    "specs": [
+      "32 pulgadas",
+      "QHD",
+      "170Hz"
+    ]
+  },
+  {
+    "id": 61,
+    "nombre": "GIGABYTE M32U",
+    "marca": "GIGABYTE",
+    "categoria": "monitor",
+    "precio": 17200,
+    "pulgadas": 32,
+    "resolucion": "3840x2160",
+    "hz": 144,
+    "panel": "IPS",
+    "imagen": "./assets/img/componentes/gigabyte-m32u.jpg",
+    "destacado": "32 pulgadas",
+    "specs": [
+      "32 pulgadas",
+      "4K",
+      "144Hz"
+    ]
+  },
+  {
+    "id": 62,
+    "nombre": "SAMSUNG Odyssey G7 32",
+    "marca": "SAMSUNG",
+    "categoria": "monitor",
+    "precio": 13900,
+    "pulgadas": 32,
+    "resolucion": "2560x1440",
+    "hz": 240,
+    "panel": "VA Curvo",
+    "imagen": "./assets/img/componentes/samsung-odyssey-g7-32.jpg",
+    "destacado": "32 pulgadas",
+    "specs": [
+      "32 pulgadas",
+      "Curvo",
+      "240Hz"
+    ]
+  },
+  {
+    "id": 63,
+    "nombre": "SAMSUNG Odyssey G5 34 Ultrawide",
+    "marca": "SAMSUNG",
+    "categoria": "monitor",
+    "precio": 11800,
+    "pulgadas": 34,
+    "resolucion": "3440x1440",
+    "hz": 165,
+    "panel": "VA Curvo",
+    "imagen": "./assets/img/componentes/samsung-odyssey-g5-34-ultrawide.jpg",
+    "destacado": "34 ultrawide",
+    "specs": [
+      "34 pulgadas",
+      "Ultrawide",
+      "165Hz"
+    ]
+  },
+  {
+    "id": 64,
+    "nombre": "CORSAIR XENEON Flex 34WQHD240",
+    "marca": "CORSAIR",
+    "categoria": "monitor",
+    "precio": 24900,
+    "pulgadas": 34,
+    "resolucion": "3440x1440",
+    "hz": 240,
+    "panel": "OLED",
+    "imagen": "./assets/img/componentes/corsair-xeneon-flex-34wqhd240.jpg",
+    "destacado": "34 OLED",
+    "specs": [
+      "34 pulgadas",
+      "Ultrawide OLED",
+      "240Hz"
+    ]
+  }
+]

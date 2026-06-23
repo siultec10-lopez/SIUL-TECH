@@ -1,0 +1,443 @@
+/* Base general de la pagina. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo claro con detalles gaming. */
+body {
+  background:
+    linear-gradient(135deg, #edf5ff 0%, #f7fafc 42%, #ecfff7 100%);
+  color: #172033;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Encabezado principal. */
+.header {
+  background:
+    linear-gradient(120deg, #101827 0%, #172033 52%, #0f766e 100%);
+  border-bottom: 4px solid #22d3ee;
+  color: #f8fafc;
+  padding: 34px 24px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-size: clamp(2rem, 5vw, 4rem);
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.header p {
+  color: #bef264;
+  font-size: 1.05rem;
+  margin-top: 10px;
+}
+
+/* Distribucion principal: catalogo a la izquierda y armado a la derecha. */
+.container {
+  display: grid;
+  align-items: start;
+  gap: 28px;
+  grid-template-columns: minmax(0, 1fr) minmax(390px, 440px);
+  margin: 30px auto;
+  max-width: 1360px;
+  width: 92%;
+}
+
+h2 {
+  color: #172033;
+  margin: 28px 0 16px;
+}
+
+h3 {
+  color: #172033;
+}
+
+/* Filtro de categorias. */
+.filtros {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.86);
+  border: 1px solid #d6e2ef;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: space-between;
+  margin-bottom: 26px;
+  padding: 16px;
+}
+
+.catalogo {
+  grid-column: 1;
+}
+
+.filtros h2 {
+  margin: 0;
+}
+
+/* Controles reutilizados en filtros, tarjetas y resumen. */
+select,
+button {
+  border: none;
+  border-radius: 8px;
+  font: inherit;
+  min-height: 42px;
+  padding: 10px 14px;
+}
+
+select {
+  background-color: #ffffff;
+  border: 1px solid #9fb0c4;
+  color: #172033;
+  min-width: 230px;
+}
+
+button {
+  background-color: #0891b2;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  transition:
+    background-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease;
+}
+
+button:hover {
+  background-color: #a3e635;
+  color: #172033;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background-color: #cbd5e1;
+  color: #64748b;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Grilla donde se muestran los componentes. */
+.grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+
+/* Tarjetas de productos del catalogo. */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #d6e2ef;
+  border-radius: 8px;
+  box-shadow: 0 14px 30px rgba(16, 24, 39, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+/* Estado visual para productos que no son compatibles con el armado actual. */
+.card-bloqueada {
+  border-color: #fecaca;
+  box-shadow: 0 10px 24px rgba(185, 28, 28, 0.12);
+  opacity: 0.78;
+}
+
+.card-bloqueada .card-imagen {
+  filter: grayscale(0.8);
+}
+
+.card-imagen {
+  aspect-ratio: 16 / 10;
+  background-color: #ffffff;
+  display: block;
+  object-fit: contain;
+  padding: 12px;
+  width: 100%;
+}
+
+.card-contenido {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.card-etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.marca,
+.badge {
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 6px 8px;
+}
+
+.marca {
+  background-color: #172033;
+  color: #ffffff;
+}
+
+.badge {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.card h3 {
+  color: #111827;
+  font-size: 1.08rem;
+  line-height: 1.3;
+}
+
+.categoria {
+  color: #0e7490;
+  font-weight: 700;
+}
+
+.specs {
+  color: #46566b;
+  display: grid;
+  gap: 6px;
+  list-style: none;
+}
+
+.specs li::before {
+  color: #65a30d;
+  content: "> ";
+  font-weight: 700;
+}
+
+.compatibilidad {
+  background-color: #fff1f2;
+  border: 1px solid #fecdd3;
+  border-radius: 8px;
+  color: #b91c1c;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 10px;
+}
+
+.card-footer {
+  align-items: center;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+.precio {
+  color: #111827;
+  font-size: 1.15rem;
+  font-weight: 800;
+}
+
+/* Panel derecho con el resumen de la PC armada. */
+.resumen {
+  align-self: start;
+  background-color: #ffffff;
+  border: 1px solid #d6e2ef;
+  border-radius: 8px;
+  box-shadow: 0 14px 30px rgba(16, 24, 39, 0.1);
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  margin-top: 0;
+  padding: 22px;
+}
+
+.resumen h2 {
+  margin-top: 0;
+}
+
+#resumenPc {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+/* Bloque de totales del armado. */
+.totales-resumen {
+  background-color: #f8fafc;
+  border: 1px solid #d6e2ef;
+  border-radius: 8px;
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+  padding: 14px;
+}
+
+.totales-resumen h3 {
+  align-items: center;
+  color: #172033;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.totales-resumen span {
+  font-weight: 800;
+}
+
+/* Botones principales del resumen. */
+.acciones-resumen {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 14px;
+}
+
+.acciones-resumen button {
+  min-height: 46px;
+  width: 100%;
+}
+
+#btnLimpiar {
+  background-color: #475569;
+}
+
+#btnLimpiar:hover {
+  background-color: #64748b;
+  color: #ffffff;
+}
+
+#btnFinalizar {
+  background-color: #172033;
+  grid-column: 1 / -1;
+}
+
+#btnFinalizar:hover {
+  background-color: #a3e635;
+  color: #172033;
+}
+
+/* Cada producto agregado al carrito. */
+.item-resumen {
+  align-items: stretch;
+  background-color: #f8fafc;
+  border: 1px solid #d6e2ef;
+  border-left: 4px solid #22d3ee;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+}
+
+.detalle-item strong,
+.detalle-item span {
+  display: block;
+}
+
+.detalle-item span {
+  color: #53657a;
+  font-size: 0.92rem;
+  margin-top: 4px;
+}
+
+.categoria-resumen {
+  color: #0e7490;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* Botones para sumar, restar o eliminar productos del armado. */
+.acciones-item {
+  align-items: stretch;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 142px 1fr;
+}
+
+.controles-cantidad {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #d6e2ef;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 42px 58px 42px;
+  min-height: 44px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.controles-cantidad button {
+  border-radius: 0;
+  font-size: 1.05rem;
+  min-height: 44px;
+  padding: 0;
+}
+
+.controles-cantidad span {
+  align-self: center;
+  color: #172033;
+  font-weight: 800;
+  text-align: center;
+}
+
+.acciones-item > button {
+  background-color: #ef4444;
+  width: 100%;
+}
+
+.acciones-item > button:hover {
+  background-color: #b91c1c;
+  color: #ffffff;
+}
+
+/* Mensaje de carga o error cuando no se puede leer el JSON. */
+.estado-carga {
+  background-color: #ffffff;
+  border: 1px solid #d6e2ef;
+  border-radius: 8px;
+  color: #172033;
+  grid-column: 1 / -1;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Ajustes para pantallas chicas. */
+@media (max-width: 900px) {
+  .container {
+    display: block;
+  }
+
+  .filtros {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  select,
+  button {
+    width: 100%;
+  }
+
+  .card-footer,
+  .item-resumen {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .acciones-item {
+    align-items: stretch;
+    grid-template-columns: 1fr;
+  }
+
+  .controles-cantidad {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .resumen {
+    margin-top: 28px;
+  }
+}

@@ -47,7 +47,7 @@ Tambien puede ejecutarse con Live Server de VS Code o publicarse en GitHub Pages
 |   `-- styles.css
 |-- data/
 |   `-- componentes.json
-`-- js/
+|-- js/
     `-- app.js
 ```
 
